@@ -1,0 +1,169 @@
+
+$mycolor:#8fa8b5;
+
+.body{
+	font-family:sans-serif;
+  }
+  
+  .jumbotron {
+	background-image:url('img/background.jpg');
+	color:white;
+	background-repeat:no-repeat;
+  }
+  
+  .img-container{
+	position:relative;
+	display:inline-block;
+  }
+  
+  .overlay span{
+	position:absolute;
+	top:15%;
+	left:30%;
+	color:#fff;
+	font-size:1.5rem;
+  }
+  
+  .card-deck{
+	background-color: $mycolor;
+  }
+  
+  .card-body{
+	background-color: $mycolor;
+	color:white;
+  }
+  
+  .row.first{
+	background-color: $mycolor;
+	color:white;
+	margin-right:0;
+	margin-left:0;
+  }
+  
+  
+  .label{
+	flex-grow:0.3;
+  }
+  
+  
+  h1 {
+	color:#d85736;
+	text-align: center;
+	margin-top:2rem;
+  }
+  
+  .progress {
+	display: flex;
+	height: 3rem;
+	margin-bottom: 0.5rem;
+  }
+  
+  .progress .label {
+	flex: 0 0 8rem;
+	background-color: $mycolor;
+	color: white;
+	height: 3rem;
+	line-height: 3rem;
+	text-align: center;
+	font-size: 1.2rem;
+  }
+  
+  .progress .bar {
+	flex: 1;
+	background-color: $mycolor;
+	height: 3rem;
+	line-height: 3rem;
+  }
+  
+  .progress .percent {
+	background-color: #d85736;
+	height: 3rem;
+  }
+  
+  .card-deck{
+	margin-top:5rem;
+	margin-left:0;
+	margin-right:0;
+  }
+  
+  .card {
+	margin-top:1rem;
+	margin-bottom:2rem;
+  }
+  
+  .container.portfolio{
+	background-color:$mycolor;
+  }
+  
+  div.card{
+	border:none;
+  }
+  
+  .flexcontainer{
+	display:flex;
+  }
+  
+  input{
+	border:none;
+  }
+  
+  .form-control.modified{
+	border-top:none;
+	border-right:none;
+	border-left:none;
+	border-bottom: 1px solid white;
+	background-color: $mycolor;
+	color:white;
+  }
+  
+  .centered{
+	display:flex;
+	justify-content: center;
+	font-size: 3rem;
+	
+  }
+  
+  #footer{
+	  min-height:10vh;
+	  background-color:#d85736;
+  }
+  
+  #footer h1{
+	color:white;
+  }
+  
+  .contact {
+	background-color: $mycolor;
+	min-height:40vh;
+  }
+  
+  .form-row{
+	width: 70%;
+	margin-right:20%;
+	margin-left:20%;
+	color:white;
+	
+  }
+  
+  .btn.btn-dark.full{
+	width: 100%;
+  }
+  
+  .row.about{
+	margin-top:5rem;
+	min-height:20vh;
+  }
+  
+  ul{
+	background-color:$mycolor;
+  }
+  
+  a{
+	color:white !important;
+  }
+  
+  :placeholder{
+	color:white;
+  }
+  
+  
